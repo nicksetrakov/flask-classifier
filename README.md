@@ -24,8 +24,8 @@ I used Google Colab to train and evaluate the model. You can access the Colab no
 - `templates/`: Folder containing HTML templates.
 
 ## Running the Project
-1. Clone this repository:`git clone https://github.com/yourusername/catdog-classifier.git `
-2. Navigate to the project directory:`cd catdog-classifier`
+1. Clone this repository:`git clone https://github.com/nicksetrakov/flask-classifier `
+2. Navigate to the project directory:`cd flask-classifier`
 3. Install the required packages:`pip install -r requirements.txt`
 4. Run the Flask app:`python app.py`
 5. Open your web browser and go to http://localhost:5000 to access the application.
