@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Classification Result</title>
+  <link rel="stylesheet" href="{{ url_for("static", filename="css/index.css") }}">
+</head>
+<body class="result-body">
+  <div class="container">
+    <h1>Classification Result:</h1>
+    <h2>This is a {{ label|capitalize }}</h2>
+    <h3>Confidence: {{ probability }}%</h3>
+    <a href="{{ url_for("index") }}" class="floating-button">Back to Home</a>
+  </div>
+</body>
+</html>
